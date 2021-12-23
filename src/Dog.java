@@ -10,7 +10,7 @@ public class Dog {
         this.age = age;
     }
 
-    public String bark() {
-        return "Bark! (My name is " + name + ". I'm a " + breed + " and I am " + age + " years old.)";
+    public void bark() {
+        char barked = "Bark! + " My name is "name + I'm a " + breed + " and I am " + age + " years old.)";
     }
 }
